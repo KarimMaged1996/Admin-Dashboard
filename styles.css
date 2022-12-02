@@ -73,6 +73,94 @@ a:hover, a img:hover{
     border: solid black 1px;
 }
 
+.search img{
+    width:min(1em,3vw);
+    height:auto;
+}
+
+.search input{
+    width: min(500px,50vw);
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+
+.notifications img{
+    width:min(1.5em,3vw);
+    height:auto;
+}
+
+.notifications{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerBottom img{
+    width:min(2.5em,3vw);
+    height:auto;
+}
+
+.headerTop{
+    margin:15px 100px 10px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.headerBottom{
+    margin:0 100px 25px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.profileInfo{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+#small{
+    font-size: 0.8rem;
+}
+.smallCircle{
+    width:2rem;
+    height:2rem;
+    border-radius: 50%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+
+.notifications{
+    display:flex;
+    gap:2rem;
+}
+
+.bigCircle{
+    width:3rem;
+    height:3rem;
+    border-radius: 50%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+.btns{
+    display:flex;
+    gap:25px;
+    align-items: center;
+}
+
+button{
+    width:80px;
+    height:30px;
+    border-radius: 20px;
+    background-color: blue;
+    color:white;
+    border: none;
+}
+
 .cardsContainer{
      grid-column: 2/3;
      grid-row:2/3;
